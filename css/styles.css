@@ -20,23 +20,24 @@ body {}
   padding: 1% 0 1%;
   color: #FFF;
   margin-bottom: 0;
-  background-color: #f4a058;
+  background-color: #222;
 }
 .navbar-nav {
   margin-top: 1%;
   margin-left: 1%;
 }
 .nav-a {
+  color: #FFF !important;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4em;
-  -webkit-transition: color 550ms ease-in;
+  /*-webkit-transition: color 550ms ease-in;
   -moz-transition: color 550ms ease-in;
   -ms-transition: color 550ms ease-in;
   -o-transition: color 550ms ease-in;
-  transition: color 550ms ease-in;
+  transition: color 550ms ease-in;*/
 }
 .nav-a:hover {
-  color: red;
+ /* color: red;*/
 }
 .navbar-toggle {
   margin-top: 30px;
@@ -69,9 +70,10 @@ body {}
 }
 .btns {
   margin-top: 45%;
+  margin-bottom: 65%;
 }
 #portfolio {
-  background-color: #C0D1D8;
+  background-color: #f4a058;
 }
 .wrap-row {
   margin-top: 4%;
@@ -79,10 +81,19 @@ body {}
 .portfolio-item {
   background-color: #FFF;
   margin: 4% 0 4%;
-  padding: 1%;
+  padding: 0;
 }
+.fix-padd {
+  padding-left: 0;
+}
+
+
+
+
+
+
 @media (max-width: 991px) {
   .btns {
-    margin: 0;
+    margin: 8% 0 8%;
   }
 }
