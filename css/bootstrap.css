@@ -1176,6 +1176,7 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
+
 h1,
 h2,
 h3,
@@ -1230,6 +1231,16 @@ h3,
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+/*Alterei aqui*/
+h1,
+.h1,
+h2,
+.h2 {
+  color: #ECEAEA;
+}
+/*Fim da alteração*/
+
 h1 small,
 .h1 small,
 h2 small,

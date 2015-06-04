@@ -15,8 +15,9 @@
 </head>
 
 <body class="">
-  <header class="header">
 
+  <!-- Header -->
+  <header class="header">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -30,7 +31,6 @@
             <img src="imgs/if.png" class="img-responsive if-img" alt="Responsive image">
           </a>
         </div>
-
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a class="nav-a" href="#">HOME</a>
@@ -39,13 +39,13 @@
             </li>
           </ul>
         </div>
-
       </div>
     </nav>
   </header>
 
   <!-- Container Main Call -->
   <section class="main-wrap">
+
     <div class="container">
       <h1 class="text-uppercase text-center intro-text">
           Urna mollis ornare vel eu leo.
@@ -60,8 +60,28 @@
         <div class="col-md-5 text-center">
           <div class="btns">
             <h1 class="text-uppercase text-center">Send the game!</h1>
-            <button type="button" class="btn btn-primary btn-lg">Formato A</button>
-            <button type="button" class="btn btn-danger btn-lg">Formato B</button>
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Formato A</button>
+            <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">Formato B</button>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -73,31 +93,15 @@
   <section id="portfolio">
     <div class="container">
       <div class="row wrap-row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-12 text-center section-portfolio">
           <h2 class="section-heading">Portfolio</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
 
+      <!--Portfolio Item -->
       <div class="row text-center portfolio">
-        <div class="col-md-12 portfolio-item">
-          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <div class="col-md-4 fix-padd">
-              <img src="imgs/game.jpg" class="img-responsive" alt="" width="600px">
-            </div>
-            <div class="col-md-8">
-              <div class="portfolio-caption">
-                <h3>Game 1</h3>
-                <p class="text-muted">Descrição do Game. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
-              </div>
-            </div>
-          </a>
-        </div>
+
 
         <div class="col-md-12 portfolio-item">
           <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
@@ -111,14 +115,31 @@
             </div>
             <div class="col-md-8">
               <div class="portfolio-caption">
-                <h3>Game 2</h3>
-                <p class="text-muted">Descrição do Game. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                <h3 class="game-title">Creating A Platformer Tilemap Tutorial</h3>
+                <p class="text-muted game-description">
+                  Descrição do Game. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
+
+              <div class="game-instructions">
+                <p>how to play: &#8673; &#8672; &#8675; &#8674; Space to Jump
+                </p>
+              </div>
+
+              <div class="game-tags">
+                <button type="button" class="btn btn-primary" disabled="disabled">JS</button>
+                <button type="button" class="btn btn-danger" disabled="disabled">HTML5</button>
+                <button type="button" class="btn btn-success" disabled="disabled">ARCADE</button>
+              </div>
+              <div class="user-tag">
+                <p class="">By ZYON</p>
               </div>
             </div>
           </a>
         </div>
-
       </div>
+      <!-- End Portfolio Item -->
+      
     </div>
   </section>
 
