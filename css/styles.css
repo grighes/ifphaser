@@ -75,15 +75,16 @@
 .wrap-row {
   margin-top: 4%;
 }
-.section-portfolio {} .section-heading {
+.section-heading {
   color: #333;
 }
 .section-subheading {
   color: #444;
 }
 .portfolio-item {
+  margin-top: 5%;
+  margin-bottom: 5%;
   background-color: #FFF;
-  margin: 4% 0 4%;
   padding: 0;
   text-align: left;
 }
@@ -92,7 +93,7 @@
   font-size: 1em;
 }
 .fix-padd {
-  padding-left: 0;
+  padding: 0;
 }
 .portfolio-link {
   text-decoration: none;
@@ -138,11 +139,18 @@
   text-align: left;
   color: #333;
   position: relative;
-  top: 4em;
+  top: 1em;
 }
 .game-tags {
   position: relative;
-  top: 4em;
+  top: 1em;
+}
+#footer {
+  background-color: #444;
+}
+
+.footer-row {
+  
 }
 @media (max-width: 991px) {
   .btns {
