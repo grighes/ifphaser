@@ -1,0 +1,3 @@
+http://startbootstrap.com/template-categories/all/
+http://startbootstrap.com/template-overviews/1-col-portfolio/
+https://perishablepress.com/obsessive-css-code-formatting-organization-comments-and-signatures/
