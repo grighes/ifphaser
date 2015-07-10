@@ -179,11 +179,19 @@ body {
   background-color: #444;
 }
 
-.footer-row {}
+/* === FOOTER === */
 
+footer {
+  color: #fff;
+}
 
+.footer-below {
+  padding: 25px 0;
+  background-color: #233140;
+}
 
 /* === MEDIA QUERY === */
+
 
 @media (max-width: 991px) {
   .btns {
