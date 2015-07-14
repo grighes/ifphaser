@@ -18,16 +18,17 @@ body {
   /* For IE 8*/
   /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";*/
   border: none;
-  padding: 1% 0 1%;
+  /*padding: 1% 0 1%;*/
   margin-bottom: 0;
   background-color: #f6f6f6;
 }
 
 .navbar-nav {
+ 
 }
 
 .nav-a {
-  /*color: #FFF !important;*/
+  /*color: #FFF !important;*
   font-family: 'Open Sans', sans-serif;
   font-size: 1.4em;
   /*-webkit-transition: color 550ms ease-in;
@@ -45,6 +46,9 @@ body {
 }
 
 
+.border-bottom{
+  border-bottom: 1px #F6F6F6 solid;
+}
 /* === END NAV === */
 
 
@@ -54,17 +58,31 @@ body {
 
 .if-img {
   margin-top: 1%;
-  display: inline;
   float: left;
 }
 
 .main-wrap {
   background-color: #a9e3f1;
   background-image: url("../imgs/space.jpg");
+  background-repeat:repeat;
+  background-attachment:scroll;
+  background-position:center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size:cover;
+  -o-background-size:cover;
+  text-align:center;
+  color:#fff;
 }
 
-.btn {
-  border-radius: 2px;
+.col-margin {
+  margin: 15% 0 10%;
+}
+
+.main-btn {
+  border-radius: 35px;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 .btn-principal {
@@ -73,14 +91,26 @@ body {
 }
 
 .intro-text {
-  margin: 10% 0 4% 0;
-  font-size: 3em;
+  margin: 0;
+  font-size: 4.5em;
   /*text-shadow: 1px 2px 3px #666;*/
 }
 
-.second-text {
-  margin: 0 0 8% 0;
+hr {
+  margin: 30px auto;
+  max-width: 50px;
+  border-color: #fff;
+  border-width: 3px;
 }
+
+.second-text {
+  margin: 0 0 0 0;
+}
+
+.third-text {
+  margin: 2% 0 2% 0;
+}
+
 
 .btns {
   margin-top: 45%;
